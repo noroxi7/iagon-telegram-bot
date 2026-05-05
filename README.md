@@ -95,7 +95,7 @@ systemctl status iagon-python-bot
 | /stop | Stop the service |
 | /restart | Restart the service |
 | /benchmark | Run performance benchmark |
-| /logs | Show last 20 log entries |
+| /logs | Show last 20 log entries of the checker|
 | /help | Show available commands |
 
 ## How it works
