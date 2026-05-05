@@ -1,0 +1,13 @@
+[Unit]
+Description=Iagon Telegram Bot
+After=network.target
+
+[Service]
+User=youruser
+WorkingDirectory=/path/where/file/is
+ExecStart=/usr/bin/python3 /path/where/file/is/python-bot.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
