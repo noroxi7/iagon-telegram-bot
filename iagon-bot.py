@@ -10,7 +10,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
 BOT_TOKEN   = "YOUR_BOT_TOKEN"
 ALLOWED_ID  = 123456789  # Your Telegram chat ID
-LOG_PATH    = "/home/noroxi/iagon/iagon-checker/logs"
+LOG_PATH    = "/path/to/checker/logs"  # Path where iagon-checker logs are stored
 # ──────────────────────────────────────────────────────────────────────────────
 
 logging.basicConfig(level=logging.INFO)
