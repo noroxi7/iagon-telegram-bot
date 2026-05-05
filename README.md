@@ -1,4 +1,4 @@
-# iagon-python-bot
+# iagon-telegram-bot
 
 Telegram bot to monitor and control an Iagon node service on Ubuntu Server, with real-time alerts based on checker logs and commands for start, stop, restart, and benchmark.
 
